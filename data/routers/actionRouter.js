@@ -6,7 +6,7 @@ router.post("/", (req, res) => {
     if (!project_id, !description || !completed || !notes) {
     }
     else if (description.length > 128) {
-        res.status(401).json({ message: "description must ne less then 128 characters" })
+        res.status(401).json({ message: "description can't be less that 128 characters" })
     }
     actions
         .insert({ project_id, description, notes, completed })
