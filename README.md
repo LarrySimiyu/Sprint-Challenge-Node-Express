@@ -26,13 +26,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+    async await and express.Router()
+
 - [ ] Describe Middleware?
+
+    Middleware acts as a bridge between two different services such as the database and application.
 
 - [ ] Describe a Resource?
 
+    A Resource is any point of data managed by the API.
+
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+    An API can return status codes such as 201 and 200 to show that a request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+    We can use Express Router and create modular route handlers to navigate to the resources.
 
 ## Project Setup
 
